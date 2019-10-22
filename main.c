@@ -25,9 +25,12 @@ void main(void)
 	print_juzhen(c, 2, 2);
 
 
+	printf("\n/*~~~~~~~华丽而不失低调的分隔符~~~~~~*/\n\n");
+
+
 	printf("矩阵b\n");
 	print_juzhen(b, 3, 2);
-	printf("x乘矩阵b\n");
+	printf("x乘矩阵a\n");
 	print_juzhen(a, 2, 3);
 	printf("结果为矩阵d\n");
 	juzhenchengfa(b, a, d, 3, 2);
