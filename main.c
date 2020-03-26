@@ -25,7 +25,7 @@ void main(void)
 	print_juzhen(c, 2, 2);
 
 
-	printf("\n/*~~~~~~~华丽而不失低调的分隔符~~~~~~*/\n\n");
+	printf("\n/*~~~~~~~~~~~~~*/\n\n");
 
 
 	printf("矩阵b\n");
@@ -36,6 +36,7 @@ void main(void)
 	juzhenchengfa(b, a, d, 3, 2);
 	print_juzhen(d, 3, 3);
 }
+//打印矩阵
 void print_juzhen(int a[], int hang, int lie)
 {
 	for (int i = 0; i < hang; i++)
@@ -47,6 +48,7 @@ void print_juzhen(int a[], int hang, int lie)
 		printf("\n");
 	}
 }
+//矩阵的点乘
 void juzhenchengfa(int a[], int b[], int c[], int hang, int lie)//表示c[hang][hang] = a[hang][lie] x b[lie][hang]
 {
 	for (int i = 0; i < hang; i++)//行循环
